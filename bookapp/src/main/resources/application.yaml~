@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/bookstore
+      password: 123890
+      
+      username: root
+
+  application:
+      name: demo
+
+server:
+  port: 8090
